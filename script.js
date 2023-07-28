@@ -34,5 +34,5 @@ function closeModal()
 function readStorage();
 {
     var storedVars = getLocalItems()
-    JSON.stringify(storedVars)
+    storedVars = JSON.stringify(storedVars)
 }
